@@ -1,0 +1,25 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    height: 100vh;
+}
+main{
+    box-sizing: border-box;
+    display: flex;
+    flex:1;
+    background-color: lightcyan;
+    background-image: linear-gradient(to top, #66b7f9,#1c82d4);
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+}
+main>aside{
+    background-color: #ccc;
+    width:200px;
+}
+main>article{
+    flex:1;
+}
+main>aside:first-of-type{
+    order: -1;
+}
